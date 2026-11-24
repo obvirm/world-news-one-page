@@ -6,48 +6,37 @@ const html = `<!doctype html>
   html,body{margin:0;padding:0;width:1024px;height:1024px;overflow:hidden;background:#f4efe4}
   #page{position:relative;width:1024px;height:1024px;background:#f4efe4;color:#141414;
         font-family:Georgia,"Times New Roman",serif}
-  .sans{font-family:"Helvetica Neue",Arial,sans-serif}
   .rule{position:absolute;background:#141414}
   .kicker{position:absolute;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;
-          font-size:11px;letter-spacing:2.6px;color:#b3261e;text-transform:uppercase}
+          font-size:16px;letter-spacing:2.6px;color:#b3261e;text-transform:uppercase}
   .head{position:absolute;font-weight:700;line-height:1}
-  .dek{position:absolute;font-size:17.5px;line-height:1.36;color:#2a2a2a}
-  .cap{position:absolute;font-size:11.5px;line-height:1.3;color:#5b5b5b;
-       font-family:"Helvetica Neue",Arial,sans-serif}
+  .dek{position:absolute;font-size:24px;line-height:1.34;color:#2a2a2a}
   .tile{position:absolute;background:#fbf7ee;border:1px solid #d9d0bf}
-  .tile .tk{position:absolute;left:92px;top:16px;font-family:"Helvetica Neue",Arial,sans-serif;
-            font-weight:700;font-size:10px;letter-spacing:2.2px;color:#b3261e}
-  .tile .th{position:absolute;left:92px;top:30px;width:352px;font-size:23px;line-height:1.06;font-weight:700}
-  .tile .td{position:absolute;left:92px;top:88px;width:356px;font-size:11.5px;line-height:1.28;color:#4a4a4a;
-            font-family:"Helvetica Neue",Arial,sans-serif}
-  .mast{position:absolute;left:0;top:44px;width:1024px;text-align:center;
-        font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:12px;letter-spacing:5.5px;color:#b3261e}
+  .tile .tk{position:absolute;left:136px;top:18px;font-family:"Helvetica Neue",Arial,sans-serif;
+            font-weight:700;font-size:16px;letter-spacing:2.2px;color:#b3261e}
+  .tile .th{position:absolute;left:136px;top:42px;width:316px;font-size:30px;line-height:1.03;font-weight:700}
+  .mast{position:absolute;left:0;top:40px;width:1024px;text-align:center;
+        font-family:"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:16px;letter-spacing:5.5px;color:#b3261e}
   .date{position:absolute;left:0;top:64px;width:1024px;text-align:center;
-        font-size:52px;font-weight:700;letter-spacing:-.4px}
-  .sub{position:absolute;left:0;top:126px;width:1024px;text-align:center;
-       font-family:"Helvetica Neue",Arial,sans-serif;font-size:10.5px;letter-spacing:4.2px;color:#5c5c5c}
-  .also{position:absolute;left:40px;top:892px;font-family:"Helvetica Neue",Arial,sans-serif;
-        font-weight:700;font-size:10.5px;letter-spacing:2.6px;color:#b3261e}
-  .also-item{position:absolute;left:150px;width:834px;font-size:12.5px;line-height:1.35;color:#232323}
-  .src{position:absolute;left:40px;top:976px;font-family:"Helvetica Neue",Arial,sans-serif;
-       font-size:9.5px;letter-spacing:.8px;color:#7a7a7a}
+        font-size:64px;font-weight:700;letter-spacing:-.6px}
+  .sub{position:absolute;left:0;top:146px;width:1024px;text-align:center;
+       font-family:"Helvetica Neue",Arial,sans-serif;font-size:18px;letter-spacing:4.2px;color:#5c5c5c}
+  .src{position:absolute;left:40px;top:980px;font-family:"Helvetica Neue",Arial,sans-serif;
+       font-size:14px;letter-spacing:.6px;color:#7a7a7a}
 </style></head><body><div id="page">
 
   <div class="rule" style="left:40px;top:26px;width:944px;height:3px"></div>
   <div class="mast">WORLD NEWS IN ONE PAGE</div>
   <div class="date">Tuesday, 24 November 2026</div>
   <div class="sub">FIVE CONTINENTS · ONE DAY'S NEWS</div>
-  <div class="rule" style="left:40px;top:143px;width:944px;height:2px"></div>
-  <div class="rule" style="left:40px;top:148px;width:944px;height:1px"></div>
+  <div class="rule" style="left:40px;top:172px;width:944px;height:2px"></div>
+  <div class="rule" style="left:40px;top:177px;width:944px;height:1px"></div>
 
-  <div class="kicker" style="left:40px;top:168px">Europe · Security</div>
-  <div class="head" style="left:38px;top:190px;width:530px;font-size:55px">NATO VOWS<br>TO DEFEND<br>SPACE</div>
-  <div class="dek" style="left:40px;top:392px;width:510px">Germany takes seriously reports that Russia may launch a nuclear-armed satellite. NATO says space is now part of its defence.</div>
-  <div style="position:absolute;left:40px;top:490px;width:3px;height:48px;background:#b3261e"></div>
-  <div style="position:absolute;left:56px;top:490px;width:500px;font-size:15.5px;font-style:italic;line-height:1.24">“We will always make sure that we defend every inch of NATO territory.”</div>
-  <div class="cap" style="left:56px;top:532px;width:500px;letter-spacing:.4px">MARK RUTTE, NATO SECRETARY GENERAL, IN BERLIN</div>
+  <div class="kicker" style="left:40px;top:196px">Europe · Security</div>
+  <div class="head" style="left:38px;top:216px;width:520px;font-size:64px">NATO VOWS<br>TO DEFEND<br>SPACE</div>
+  <div class="dek" style="left:40px;top:414px;width:510px">NATO says space is part of its defence after reports that Russia may launch a nuclear-armed satellite; Moscow denies it.</div>
 
-  <svg width="388" height="322" viewBox="0 0 388 322" style="position:absolute;left:596px;top:166px">
+  <svg width="424" height="352" viewBox="0 0 388 322" style="position:absolute;left:566px;top:190px">
     <defs>
       <radialGradient id="space" cx="42%" cy="34%" r="80%">
         <stop offset="0%" stop-color="#16233c"/><stop offset="60%" stop-color="#0a1322"/><stop offset="100%" stop-color="#060b14"/>
@@ -91,12 +80,11 @@ const html = `<!doctype html>
     <circle cx="194" cy="150" r="66" fill="none" stroke="#e0473a" stroke-width="1.4" stroke-dasharray="5 7" opacity=".55"/>
     <circle cx="194" cy="150" r="76" fill="none" stroke="#e0473a" stroke-width=".8" opacity=".22"/>
   </svg>
-  <div class="cap" style="left:596px;top:498px;width:388px">Reports say a Russian satellite, Sputnik-S, could be launched within 60 days. Moscow calls the reports unfounded.</div>
 
-  <div class="rule" style="left:40px;top:548px;width:944px;height:2px"></div>
+  <div class="rule" style="left:40px;top:558px;width:944px;height:2px"></div>
 
-  <div class="tile" style="left:40px;top:562px;width:460px;height:146px">
-    <svg width="64" height="64" viewBox="0 0 64 64" style="position:absolute;left:14px;top:22px">
+  <div class="tile" style="left:40px;top:570px;width:460px;height:190px">
+    <svg width="100" height="100" viewBox="0 0 64 64" style="position:absolute;left:18px;top:52px">
       <g stroke="#1d3557" stroke-width="2" fill="none" stroke-linecap="round">
         <path d="M4 56 q6 -4 12 0 t12 0 t12 0 t12 0"/>
         <path d="M10 62 q6 -4 12 0 t12 0 t12 0"/>
@@ -111,13 +99,12 @@ const html = `<!doctype html>
       <g fill="#b3261e"><path d="M35 31 l6 -2 -3 6 z"/></g>
       <path d="M24 40 l7 -2" stroke="#b3261e" stroke-width="2"/>
     </svg>
-    <div class="tk">AFRICA</div>
-    <div class="th">Sea drones sink a Russian warship off Libya</div>
-    <div class="td">Ukraine confirms the strike at Benghazi; Libya's UN-backed government condemns it.</div>
+    <div class="tk">Africa · Conflict</div>
+    <div class="th">UKRAINE DRONES<br>SINK RUSSIAN<br>WARSHIP OFF<br>LIBYA</div>
   </div>
 
-  <div class="tile" style="left:524px;top:562px;width:460px;height:146px">
-    <svg width="64" height="64" viewBox="0 0 64 64" style="position:absolute;left:14px;top:22px">
+  <div class="tile" style="left:524px;top:570px;width:460px;height:190px">
+    <svg width="100" height="100" viewBox="0 0 64 64" style="position:absolute;left:18px;top:52px">
       <g stroke="#1d3557" stroke-width="2" fill="#d8dee8">
         <rect x="16" y="16" width="30" height="30" rx="3"/>
       </g>
@@ -131,30 +118,27 @@ const html = `<!doctype html>
       <path d="M24 35 L28 31 L31 33 L38 25" stroke="#b3261e" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M33 24 L39 24 L39 30" stroke="#b3261e" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
-    <div class="tk">AMERICAS</div>
-    <div class="th">Nvidia reinstates Huang as CEO after Trump push</div>
-    <div class="td">Shares jump as much as 36.6% as lawmakers criticise the board's decision.</div>
+    <div class="tk">Americas · Business</div>
+    <div class="th">NVIDIA<br>REINSTATES<br>JENSEN HUANG<br>AS CEO</div>
   </div>
 
-  <div class="tile" style="left:40px;top:720px;width:460px;height:146px">
-    <svg width="64" height="64" viewBox="0 0 64 64" style="position:absolute;left:14px;top:22px">
-      <g transform="rotate(-38 32 30)">
-        <rect x="14" y="14" width="30" height="12" rx="3" fill="#d8dee8" stroke="#1d3557" stroke-width="2"/>
-        <rect x="41" y="17" width="18" height="6" rx="2" fill="#c2cbd8" stroke="#1d3557" stroke-width="1.8"/>
+  <div class="tile" style="left:40px;top:775px;width:460px;height:190px">
+    <svg width="100" height="100" viewBox="0 0 64 64" style="position:absolute;left:18px;top:52px">
+      <g transform="rotate(-36 32 30)">
+        <rect x="15" y="12" width="34" height="13" rx="3" fill="#d8dee8" stroke="#1d3557" stroke-width="2"/>
+        <rect x="47" y="16" width="9" height="5" rx="2" fill="#c2cbd8" stroke="#1d3557" stroke-width="1.8"/>
+        <rect x="28" y="24" width="8" height="16" rx="2" fill="#f4efe4" stroke="#1d3557" stroke-width="1.8"/>
       </g>
-      <rect x="10" y="49" width="44" height="5" rx="1.5" fill="#d8dee8" stroke="#1d3557" stroke-width="1.8"/>
-      <path d="M18 49 L26 36" stroke="#1d3557" stroke-width="2" stroke-linecap="round"/>
-      <path d="M50 8 l-6 6" stroke="#b3261e" stroke-width="2" stroke-linecap="round"/>
-      <path d="M48 22 l8 -8" stroke="#b3261e" stroke-width="2" stroke-linecap="round"/>
-      <path d="M54 14 l4 -4" stroke="#b3261e" stroke-width="2" stroke-linecap="round"/>
+      <rect x="10" y="50" width="44" height="6" rx="2" fill="#d8dee8" stroke="#1d3557" stroke-width="2"/>
+      <path d="M22 50 L30 37" stroke="#1d3557" stroke-width="2" stroke-linecap="round"/>
+      <path d="M49 8 l-5 6 M56 14 l-6 5" stroke="#b3261e" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <div class="tk">ASIA</div>
-    <div class="th">China sentences an official to death for spying</div>
-    <div class="td">A rare capital case, for leaking national secrets to a foreign country.</div>
+    <div class="tk">Asia · Justice</div>
+    <div class="th">CHINA OFFICIAL<br>SENTENCED TO<br>DEATH<br>FOR SPYING</div>
   </div>
 
-  <div class="tile" style="left:524px;top:720px;width:460px;height:146px">
-    <svg width="64" height="64" viewBox="0 0 64 64" style="position:absolute;left:14px;top:22px">
+  <div class="tile" style="left:524px;top:775px;width:460px;height:190px">
+    <svg width="100" height="100" viewBox="0 0 64 64" style="position:absolute;left:18px;top:52px">
       <path d="M4 34 q10 -6 20 0 t20 0" stroke="#1d3557" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M4 44 q10 -6 20 0 t20 0" stroke="#1d3557" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M4 54 q10 -6 20 0 t20 0" stroke="#1d3557" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -163,15 +147,9 @@ const html = `<!doctype html>
       <rect x="30" y="30" width="8" height="8" fill="#1d3557"/>
       <path d="M50 10 l-4 8 M56 14 l-8 4" stroke="#b3261e" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <div class="tk">OCEANIA</div>
-    <div class="th">New Zealand village faces 'catastrophic' flooding</div>
-    <div class="td">A new report warns the Waiho River could destroy the township without action.</div>
+    <div class="tk">Oceania · Climate</div>
+    <div class="th">NZ VILLAGE<br>CATASTROPHIC<br>FLOOD WARNING</div>
   </div>
-
-  <div class="rule" style="left:40px;top:884px;width:944px;height:2px"></div>
-  <div class="also">ALSO TODAY · IN BRIEF</div>
-  <div class="also-item" style="top:910px">FIFA awards the 2031 Women's World Cup to the US, Mexico, Costa Rica and Jamaica; the UK will host in 2035.</div>
-  <div class="also-item" style="top:938px">Mexico will try 'El Chapo Isidro' despite a US extradition request; Indonesia files treason charges over spying on its president.</div>
 
   <div class="src">SOURCES: THE GUARDIAN · THE STRAITS TIMES · AL JAZEERA — 24 NOVEMBER 2026</div>
 </div></body></html>`;
