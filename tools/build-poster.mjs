@@ -55,9 +55,6 @@ const html = `<!doctype html>
       <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0%" stop-color="#2b5f8f"/><stop offset="45%" stop-color="#16324f"/><stop offset="100%" stop-color="#08111e"/>
       </linearGradient>
-      <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-        <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
     </defs>
     <rect width="388" height="322" fill="url(#space)"/>
     <g fill="#aebdd8" opacity=".7">
@@ -172,7 +169,7 @@ const html = `<!doctype html>
   </div>
 
   <div class="rule" style="left:40px;top:884px;width:944px;height:2px"></div>
-  <div class="also">ALSO TODAY</div>
+  <div class="also">ALSO TODAY · IN BRIEF</div>
   <div class="also-item" style="top:910px">FIFA awards the 2031 Women's World Cup to the US, Mexico, Costa Rica and Jamaica; the UK will host in 2035.</div>
   <div class="also-item" style="top:938px">Mexico will try 'El Chapo Isidro' despite a US extradition request; Indonesia files treason charges over spying on its president.</div>
 
